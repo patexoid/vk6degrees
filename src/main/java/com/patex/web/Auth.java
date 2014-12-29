@@ -39,8 +39,8 @@ public class Auth {
         _leafExpander.config(api);
         final VKProfile user = api.usersOperations().getUser();
 
-        System.out.println(new FriendTree("",_leafExpander).findChains(new FriendTree("12234",_leafExpander)));
-        System.out.println(new FriendTree("",_leafExpander).findChains(new FriendTree("12342",_leafExpander)));
+        System.out.println(new FriendTree("",_leafExpander).findChains(new FriendTree("77",_leafExpander)));
+        System.out.println(new FriendTree("",_leafExpander).findChains(new FriendTree("66",_leafExpander)));
 
     }
 }
